@@ -1,0 +1,48 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#gallery {
+  display: flex;
+  align-items: center;
+}
+
+.item_image {
+  display: inline-block;
+  width: 200px;
+  height: 110px;
+  margin: 20px 20px;
+  border-style: solid;
+  overflow: hidden;
+}
+
+#counter {
+  margin-bottom: 20px;
+}
+
+#validation-input {
+  display: block;
+  margin-bottom: 20px;
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
+
+#validation-input.invalid {
+  border-color: #f44336;
+}
+
+#text {
+  display: block;
+  margin-bottom: 20px;
+}
